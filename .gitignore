@@ -13,11 +13,9 @@ out/
 .DS_Store
 Thumbs.db
 
-# Large macro files (over 50MB)
+# Macro files (.amc) - exclude from Git due to potential large size
+# If you need to share macros, use Git LFS or external storage
 macros/*.amc
-
-# Keep only small example macros if needed
-!macros/demo/
 
 # License files (sensitive data)
 **/MacrosLicense/
